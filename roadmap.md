@@ -12,3 +12,16 @@
   - [ ] Kudos
 
 ## Roadmap
+
+## Gameplan
+
+1. Figure out how to have users log into their ao3 accounts
+2. Figure out how to have a logged-in user history downloaded as a JSON file
+   1. Curated timeframe of the last 365 days of history
+   2. JSON file only contains certain information
+      - [ ] Author
+      - [ ] Fandom
+      - [ ] Tags
+      - [ ] Word Count
+      - [ ] Kudos
+3. Parse JSON file and display pretty graphic
