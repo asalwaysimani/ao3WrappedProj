@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AO3 A Year, Wrapped</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Noto+Color+Emoji&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+  </style>
+  <script src="https://unpkg.com/vue@3"></script>
+  <style>
+    body {
+      font-family: "Aleo", serif;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-menu is-active">
+      <a class="navbar-burger is-active" role="button" aria-label="menu" aria-expanded="false"
+        data-target="navbarBasics">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="navbarBasic">
+      <div class="navbar-start">
+        <a class="navbar-item">
+          Home
+        </a>
+        <a class="navbar-item has-dropdown">
+          <a class="navbar-link">
+            Help
+          </a>
+          <div class="navbar-dropdown is-boxed">
+            <a class="navbar-item" href="ao3wrapped-proj\src\docs\gettingStarted.md">
+              Getting Started
+            </a>
+            <a class="navbar-item" href="ao3wrapped-proj\src\docs\wrappedOverview.md">
+              Wrapped Help Overview
+            </a>
+          </div>
+        </a>
+        <div class="navbar-item">
+          <a class="navbar-link" href="https://archiveofourown.org/">
+            Archive Of Our Own
+          </a>
+        </div>
+        <div class="navbar-item">
+          <a class="navbar-link" href="https://asalwaysimani.com/">
+            As Always Imani
+          </a>
+          <div class="navbar-item">
+            <a class="navbar-link" a href="mailto:me@asalwaysimani.com">
+              Report An Issue
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="navbar-end">
+        <!-- navbar items for the right side of the screen-->
+      </div>
+  </nav>
+
+  <section class="hero">
+    <div id="intro" class="container">
+      <h1 class="title"> {{ pageTitle }} </h1>
+      <h2 class="subtitle"> {{ subHeading }}</h2>
+    </div>
+
+    <section class="hero is-fullheight is-warning">
+      <div class="hero-body">
+        <p class="title">Under Construction</p>
+      </div>
+    </section>
+
+    <script>
+      Vue.createApp({
+        data() {
+          return {
+            pageTitle: 'AO3 Year Wrapped',
+            subHeading: 'How much fanfiction did I read this year?'
+          };
+        }
+      }).mount('#intro');
+    </script>
+  </section>
+</body>
+
+</html>
