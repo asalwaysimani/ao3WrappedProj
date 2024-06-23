@@ -1,6 +1,10 @@
 # ao3 Yearly Wrap Party
 
-Answering the time-honored question "How much fanfiction did I read this year?"
+## About
+
+Answering the time-honored question "How much fanfiction did I read this year?".
+
+A project being undertaken by [Imani of As Always Imani](https://asalwaysimani.com/).
 
 ## Features
 
@@ -14,4 +18,6 @@ Answering the time-honored question "How much fanfiction did I read this year?"
 - [ ] must work on desktop and mobile
 - [ ] Save wrapped as a PNG/JPEG
 
-## How To Use ao3 Wrapped
+## How To Use AO3 Wrapped Party
+
+**COMING SOON**

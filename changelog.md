@@ -2,6 +2,10 @@
 
 ## Pre-Alpha, 20240623
 
+### Added
+
+- Initialized Astro static site generator template.
+
 ## Headings
 
 - Added used for something new, either a newly created note or folder.
